@@ -1,0 +1,49 @@
+.bot {
+  font-size: 25px;
+  background-color: rgb(43, 0, 255);
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 4px 4px #120352;
+  margin:100px;
+}
+.bot:hover {
+  position:relative;
+  top:100px;
+  left:100px;
+}
+.bot2 {
+  font-size: 25px;
+  background-color: rgb(34, 255, 0);
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 4px 4px #065203;
+  position:absolute;
+  top:108px;
+  left:478px;
+}
+.bot1 {
+  font-size: 25px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 4px 4px #520303;
+  margin:100px 0 0 100px;
+  z-index: 10;
+}
+.bot2:hover {
+  opacity: 0;
+}
+.bot3 {
+  font-size: 25px;
+  background-color: rgb(255, 247, 0);
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 4px 4px #524103;
+  margin-left:100px;
+}
+.bot3:active {
+  box-shadow: none;
+  position: relative;
+  top:4px;
+  left:4px;
+}
