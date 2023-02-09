@@ -1,0 +1,31 @@
+header {
+  height: 65px;
+  background-color: rgb(198, 250, 233);
+}
+header h1 {
+  font-size: 25px;
+  font-family: 'Rampart One', cursive;
+  color:rgb(164, 3, 179);
+  float:left;
+  margin-left: 30px;
+}
+.nice {
+  float:right;
+  padding-left:30px;
+  margin: 35px;
+  border-radius: 4px;
+  box-shadow: 3px 3px rgb(50, 50, 50);
+}
+.nice:active {
+  box-shadow:none;
+  position: relative;
+  top:3px;
+  left:3px;
+}
+.fa-thumbs-o-up {
+  color: red;
+  position:absolute;
+  top:48px;
+  left:1413px;
+  z-index: 10;
+}
