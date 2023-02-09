@@ -3,18 +3,20 @@ header {
   background-color: rgb(198, 250, 233);
 }
 header h1 {
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Rampart One', cursive;
   color:rgb(164, 3, 179);
   float:left;
   margin-left: 30px;
+  margin-top: 0px;
 }
 .nice {
   float:right;
   padding-left:30px;
   margin: 35px;
   border-radius: 4px;
-  box-shadow: 3px 3px rgb(50, 50, 50);
+  box-shadow: 3px 3px rgb(50, 50, 50);  
+  cursor: pointer;
 }
 .nice:active {
   box-shadow:none;
@@ -28,4 +30,49 @@ header h1 {
   top:48px;
   left:1413px;
   z-index: 10;
+}
+/*==============================================================================================*/
+.main {
+  background-image: url(https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG_4SPDMEJAVjoxj_RdyVMJAb1FDwB6mshwnHqvkP-Stuy2hcpenKhUlzSNoOeIfyU1y73-BeEiEJvm48iu6HBkG3Otz0q549CCH0FNLBfLOOUh25R6pIy54vIimzyKpJuGFIgyLkuyf5jOHDwEC-6QNe3uT-zdSEpiRGklpEaXc-7M8wm2RDU82vmIFN1Pv4RYPlizd5ufegSyBz4FHGjMDL_F12au4N_H6noohCXGef6jiEJbh-leLiphU8vopHm7jrYM8v3pAntWHsZclgE2j-l9Qjcn0C_yWLXK9_uvoH30skw_CDDJqDQTdtudSs7qgPy-lur1PD4Q_itdSAONTacnvjaodDxU5eCBOygX5QhCMMART10XB2GlT736NDkA==/pngtree-watercolor-splashes-abstract-background-picture-image_1327560.jpg?errorImage=false);
+  background-size: cover;
+}
+.main-main {
+  background-color: rgba(255,255,255,0.7);
+}
+.main h1 {
+  display:inline-block;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+.qlick {
+  font-size:15px;
+  text-align:center;
+  font-weight: bolder;
+  display:inline-block;
+}
+.site-img {
+  margin-left:250px;
+  margin-top: 20px;
+}
+.site-img img {
+  width: 410px;
+  height:250px;
+  position:relative;
+  z-index: 10;
+  border: 5px solid blue;
+}
+.site-img img:hover {
+  opacity: 0.3;
+}
+.site-img p {
+  position: absolute;
+  top: 150px;
+  width: 395px;
+  color: rgb(7, 0, 0);
+  font-size: 20px;
+  z-index: 5;
+  font-weight: bolder;
+  background-color: rgb(189, 189, 252);
+  padding:30px 0 38px 15px;
+  margin-top: 37px;
+  margin-left: 5px;
 }
