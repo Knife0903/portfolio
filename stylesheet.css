@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-image: url(bg.png);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    width: 1920px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(51, 50, 128, 0.753);
+    height: 80px;
+    width: 1920px;
+    border-bottom: 5px solid #ffffff;
+    border-image: linear-gradient(to right, #ffffff 0%, rgb(73, 73, 73) 33%, #ffffff 67%, rgb(73, 73, 73) 100%);
+    border-image-slice: 1;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+h1 {
+    margin: 5px 70px;
+    font-family: 'Rampart One', cursive;
+    font-size: 50px;
+    color: rgb(255, 252, 78);
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.qlick {
+    font-size: 23px;
+    color: rgb(94, 1, 1);
+}
+
+.main-sites {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sites {
+    margin: 0 auto;
+}
+
+.site {
+    width: 50%;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.sites p {
+    width: 70%;
+    position: absolute;
+    top:-22px;
+    left: 115px;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 25px 5px;
+}
+
+.site a {
+    position: relative;
+    z-index: 5;
+}
+
+.exp1 {
+    display: block;
+}
+
+.exp1 a {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.exp1 img {
+    width: 100%;
+    border: 5px solid blue;
+}
+
+.exp2 {
+    display: block;
+}
+
+.exp2 a {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.exp2 img {
+    width: 100%;
+    border: 5px solid green;
+}
+
+.sites img:hover {
+    opacity: 0.2;
+}
+
+.exp1 p {
+    background-color: rgb(150, 150, 255);
+}
+
+.exp2 p {
+    background-color: rgb(151, 214, 151);
+}
